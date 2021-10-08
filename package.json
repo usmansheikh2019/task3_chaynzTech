@@ -1,0 +1,25 @@
+{
+  "name": "task4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.0",
+    "path": "^0.12.7",
+    "sequelize": "^5.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
